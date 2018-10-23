@@ -10,4 +10,13 @@ class Fish
   def get_fed
     @mood = "happy"
   end
+
+  def get_sold
+    @mood = "nervous"
+  end
+end
+
+
+def get_sold
+  @mood = "nervous"
 end
