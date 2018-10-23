@@ -50,4 +50,10 @@ class Owner
   def feed_fish
     @pets[:fishes].each { |fish| fish.get_fed }
   end
+
+  def sell_pets
+    @pets.each do |type, pets|
+      pets.each { |pet| pet.get_sold }
+    end
+  end
 end
