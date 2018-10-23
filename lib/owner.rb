@@ -6,6 +6,9 @@ class Owner
   def self.reset_all
     OWNERS.clear
   end
+  def self.count
+    OWNERS.count
+  end
 
   def initialize(argument)
     OWNERS << self
