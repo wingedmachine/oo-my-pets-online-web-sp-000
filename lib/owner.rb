@@ -42,4 +42,8 @@ class Owner
   def walk_dogs
     @pets[:dogs].each { |dog| dog.go_for_a_walk }
   end
+
+  def play_with_cats
+    @pets[:cats].each { |cat| cat.play_with_owner }
+  end
 end
