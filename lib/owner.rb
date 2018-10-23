@@ -38,4 +38,8 @@ class Owner
   def buy_dog(name)
     @pets[:dogs] << Dog.new(name)
   end
+
+  def walk_dogs
+    @pets[:dogs].each { |dog| dog.go_for_a_walk }
+  end
 end
