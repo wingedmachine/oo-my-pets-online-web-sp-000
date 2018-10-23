@@ -46,4 +46,8 @@ class Owner
   def play_with_cats
     @pets[:cats].each { |cat| cat.play_with_owner }
   end
+
+  def feed_fish
+    @pets[:fishes].each { |fish| fish.get_fed }
+  end
 end
