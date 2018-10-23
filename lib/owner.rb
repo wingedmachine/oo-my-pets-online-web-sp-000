@@ -1,6 +1,7 @@
 class Owner
   def initialize(argument)
     OWNERS << self
+    @species = 'human'
   end
 
   OWNERS = []
@@ -14,5 +15,5 @@ class Owner
     OWNERS.count
   end
 
-  attr_accessor :species
+  attr_reader :species
 end
