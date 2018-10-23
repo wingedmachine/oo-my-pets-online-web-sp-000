@@ -10,4 +10,8 @@ class Dog
   def go_for_a_walk
     @mood = "happy"
   end
+
+  def get_sold
+    @mood = "nervous"
+  end
 end
