@@ -1,4 +1,8 @@
 class Owner
+  def initialize(argument)
+    OWNERS << self
+  end
+  
   OWNERS = []
   def self.all
     OWNERS
@@ -10,7 +14,5 @@ class Owner
     OWNERS.count
   end
 
-  def initialize(argument)
-    OWNERS << self
-  end
+  attr_accessor :species
 end
