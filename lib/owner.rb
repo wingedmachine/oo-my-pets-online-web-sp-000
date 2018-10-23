@@ -55,5 +55,6 @@ class Owner
     @pets.each do |type, pets|
       pets.each { |pet| pet.get_sold }
     end
+    @pets.clear
   end
 end
