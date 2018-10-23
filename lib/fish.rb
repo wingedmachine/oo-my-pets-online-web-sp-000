@@ -15,8 +15,3 @@ class Fish
     @mood = "nervous"
   end
 end
-
-
-def get_sold
-  @mood = "nervous"
-end
