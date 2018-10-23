@@ -1,3 +1,7 @@
 class Owner
-  # code goes here
+  OWNERS = []
+
+  def initialize
+    OWNERS << self
+  end
 end
