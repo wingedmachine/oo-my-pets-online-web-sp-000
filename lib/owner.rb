@@ -2,7 +2,7 @@ class Owner
   def initialize(argument)
     OWNERS << self
   end
-  
+
   OWNERS = []
   def self.all
     OWNERS
