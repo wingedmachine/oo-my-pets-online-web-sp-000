@@ -6,4 +6,8 @@ class Fish
     @name = name
     @mood = "nervous"
   end
+
+  def get_fed
+    @mood = "happy"
+  end
 end
