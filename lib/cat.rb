@@ -6,4 +6,8 @@ class Cat
     @name = name
     @mood = "nervous"
   end
+
+  def play_with_owner
+    @mood = "happy"
+  end
 end
