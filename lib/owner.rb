@@ -1,4 +1,6 @@
 class Owner
+  attr_reader :species
+  
   def initialize(argument)
     OWNERS << self
     @species = 'human'
@@ -15,5 +17,7 @@ class Owner
     OWNERS.count
   end
 
-  attr_reader :species
+  def say_species
+    "I am a #{species}."
+  end
 end
