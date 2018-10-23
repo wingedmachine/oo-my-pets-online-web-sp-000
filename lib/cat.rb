@@ -10,4 +10,8 @@ class Cat
   def play_with_owner
     @mood = "happy"
   end
+
+  def get_sold
+    @mood = "nervous"
+  end
 end
