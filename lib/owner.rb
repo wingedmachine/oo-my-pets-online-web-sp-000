@@ -4,7 +4,7 @@ class Owner
     OWNERS
   end
 
-  def initialize
+  def initialize(argument)
     OWNERS << self
   end
 end
